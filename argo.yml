@@ -10,7 +10,7 @@ spec:
     path: argo
   destination:
     server: https://kubernetes.default.svc
-    namespace: flavius
+    namespace: argocd
   
   syncPolicy:
     syncOptions:
